@@ -89,7 +89,7 @@ else:
     
     # Ask for Steam Library
     conf["Steam"] = {}
-    conf["Steam"]["LibraryPath"] = input(trans(lng, "steam-lib-prompt")).strip().rstrip("/\n")
+    conf["Steam"]["LibraryPath"] = input(trans(lang, "steam-lib-prompt")).strip().rstrip("/\n")
     
     # Ask for Proton version
     conf["Steam"]["ProtonPath"] = ""
