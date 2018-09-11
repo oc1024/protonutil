@@ -102,6 +102,8 @@ lang = conf["ProtonUtil"]["Lang"].rstrip("/\n")
 libpath = conf["Steam"]["LibraryPath"].rstrip("/\n")
 propath = conf["Steam"]["ProtonPath"].rstrip("/\n")
 winepath = f"{propath}/dist/bin/wine"
+
+#Setting environment variables for Winetricks
 os.environ["WINE"] = winepath
 os.environ["WINESERVER"] = winepath+"server"
 
