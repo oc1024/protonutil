@@ -1,0 +1,33 @@
+steam-lib-prompt Onde está a sua biblioteca Steam? (caminho completo):
+proton-ver-found As seguintes versões do Proton foram encontradas:
+proton-ver-prompt Escolha um dos números:
+steam-lib-use Usando a biblioteca Steam localizada em %0
+compatdata-look Procurando na pasta compatdata...
+following-proton-found Os seguintes prefixos Proton foram encontrados:
+no-name (nome desconhecido)
+
+appid-prompt Escolha o AppId de um dos jogos:
+invalid-num Escolha um número válido
+you-appid Você escolheu: %0
+
+todo-prompt O que quer fazer?
+winetrick-install Instalar Winetricks
+winecfg-act Abrir Winecfg
+winecmd Abrir CMD
+prefixrun Rodar um .EXE neste prefixo ou abrir um utilitário (winecfg, control, cmd)
+convert32 Converter prefixo para 32-bits
+proton32 Forçar o Proton a aceitar 32-bits
+hackerman Iniciar sessão do shell neste ambiente
+reappid Baixar novamente a list da AppIds
+proton-change Mudar a versão do Proton
+lib-change Outra Biblioteca Steam
+next-start Essas alterações terão efeito depois de sair.
+close-this Sair
+pick-trick Escolha uma opção:
+
+winetrick-prompt Digite os Winetricks a serem instalados (separados por espaço):
+prefixrun-prompt Digite o caminho completo do .EXE ou o nome do utilitário a ser executado:
+convert32-prompt É possível que haja consequências indesejadas. Tem certeza de que quer continuar? (redigite o AppId para confirmar):
+already32-info A conversão já foi feita. Restaurando backup.
+done Concluído.
+convert32-abort Conversão para 32-bits abortada.
